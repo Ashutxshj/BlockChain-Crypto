@@ -67,16 +67,16 @@ let smashingCoin = new CryptoBlockchain();
 console.log("smashingCoin mining in progress....");
 smashingCoin.addNewBlock(
   new CryptoBlock(1, "01/06/2020", {
-    sender: "Iris Ljesnjanin",
-    recipient: "Cosima Mielke",
+    sender: "Ashutosh Jha",
+    recipient: "Jha Ashutosh",
     quantity: 50
   })
 );
 
 smashingCoin.addNewBlock(
   new CryptoBlock(2, "01/07/2020", {
-    sender: "Vitaly Friedman",
-    recipient: "Ricardo Gimenes",
+    sender: "Bruce Wayne",
+    recipient: "Clark Kent",
     quantity: 100
   })
 );
