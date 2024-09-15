@@ -1,0 +1,17 @@
+Blockchain is the technology that powers digital currencies, such as Bitcoin and Ethereum. It is an innovative distributed public ledger technology that maintains a continuously growing list of records, referred to as blocks, which are connected securely using cryptography.
+
+The term blockchain has earned its name because of the manner it keeps transaction data, i.e. in blocks that are connected to each other to create a chain. The size of the blockchain grows with an increase in the number of transactions undertaken.
+
+Any valid transaction data is logged into the blockchain network, which is governed by peer-to-peer rules that the participants stipulate. For example, this data could contain the “value” of the block such as in digital currencies, a record of transactions (such as when parties exchange goods and services), or entitlement privileges such as when the chain records ownership information.
+
+Besides the transaction data, every block may contain its own cryptographic hash (a unique identifier or digital footprint), its own nonce value (an arbitrary random number used once in cryptographic computations), the hash of the previous block, and a timestamp of recent authenticated transactions.
+
+Since every new block should point to the previous block, if a block is incorporated into the chain without containing the right hash of the last block, it could render the entire blockchain invalid. This immutability property is key to the security of blockchains.
+
+Furthermore, various types of consensus protocols are often applied to maintain the authenticity of the blockchain. Consensus ensures that all participants agree to the network-validated transactions.
+
+For example, a commonly used consensus protocol is proof of work, which aims to identify a number that finds a solution to a complicated mathematical problem after completing a certain amount of computing work.
+
+The main idea of proof work is that any participant in the blockchain network should find this number difficult to identify but easily verifiable. Consequently, it discourages spamming and tampering with the structure of the blockchain.
+
+In the case of most cryptocurrencies, adding a new block to the blockchain requires solving a complex mathematical equation, which increases in difficulty over time as the blockchain grows. Consequently, any person who proves that they’ve done work by solving this problem is compensated with a digital currency, in a process referred to as “mining”.
